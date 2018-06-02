@@ -27,7 +27,13 @@ echo $usuario;*/
 //$aluno->insert();
 //echo $aluno;
 
-$usuario = new Usuario();
+//Alterar um usuário
+/*$usuario = new Usuario();
 $usuario->loadById(5);
 $usuario->update("Professor", "520455");
+echo $usuario;*/
+
+$usuario = new Usuario();
+$usuario->loadById(7);
+$usuario->delete();
 echo $usuario;
